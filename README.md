@@ -54,21 +54,21 @@ pip install pandas requests beautifulsoup4 chardet nltk textstat
 Place the input Excel sheet (Input.xlsx) containing URL_ID and URL columns in the working directory.
 Ensure the word list filenames and folder names do not contain extra spaces.
 #### 3. **Run the Script**
-  -**Preferred Method**: Google Colab
+  **Preferred Method**: Google Colab
   Upload the script and required files to Google Colab.
   Execute the cells sequentially in the notebook.
   -**Alternative**: Local Environment
   Save the script as analyze_articles.py.
   Run the script using the command
 
-### 📦 **Dependencies Required**
-Python Libraries:
-  -pandas: For handling and processing Excel sheets.
-  -requests: To fetch web content from URLs.
-  -beautifulsoup4: To parse and extract HTML content.
-  -chardet: To detect file encodings.
-  -nltk: For tokenizing text into words and sentences.
-  -textstat: For calculating syllables and Fog Index.
+#### 📦 **Dependencies Required**
+### Python Libraries:
+      -pandas: For handling and processing Excel sheets.
+      -requests: To fetch web content from URLs.
+      -beautifulsoup4: To parse and extract HTML content.
+      -chardet: To detect file encodings.
+      -nltk: For tokenizing text into words and sentences.
+      -textstat: For calculating syllables and Fog Index.
   
 ### 1. **Setup**  
 
