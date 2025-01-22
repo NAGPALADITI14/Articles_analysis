@@ -48,6 +48,7 @@ This project systematically processes a set of URLs provided in an Excel sheet t
 Run the following command in your terminal or command prompt to install the necessary libraries:  
 ```bash
 pip install pandas requests beautifulsoup4 chardet nltk textstat
+```
 
 #### 2. **Prepare Files and Folders**
 Place the input Excel sheet (Input.xlsx) containing URL_ID and URL columns in the working directory.
